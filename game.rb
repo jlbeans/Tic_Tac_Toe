@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require_relative 'board'
+require_relative 'player'
+
 # This class controls the game flow
 class Game
   attr_reader :board, :player_one, :player_two
